@@ -1,0 +1,20 @@
+{
+  "name": "excel-calendar-creator",
+  "version": "1.0.0",
+  "description": "Utility project to create an xsls file containing monthly calendar for a given year for a given country",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js"
+  },
+  "keywords": [
+    "calendar",
+    "node",
+    "excel"
+  ],
+  "author": "Claudio Musumeci",
+  "license": "ISC",
+  "dependencies": {
+    "date-holidays": "^3.12.1",
+    "excel4node": "^1.7.2"
+  }
+}
